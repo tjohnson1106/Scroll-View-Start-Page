@@ -15,7 +15,17 @@ class ContentContainer extends Component {
           <CustomImage imageSource={require("../images/water.jpeg")} />
         </View>
 
-        <View style={styles.contentBanner}>{}</View>
+        <View style={styles.contentBanner}>
+          <CustomImage imageSource={require("../images/glass-house.jpeg")} />
+        </View>
+
+        <View style={styles.colOne}>
+          <CustomImage imageSource={require("../images/bed.jpeg")} />
+        </View>
+
+        <View style={styles.colTwo}>
+          <CustomImage imageSource={require("../images/clock.jpeg")} />
+        </View>
       </View>
     );
   }
