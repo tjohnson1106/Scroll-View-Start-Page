@@ -15,19 +15,32 @@ class ContentContainer extends Component {
         </View>
 
         <View style={styles.colOne}>
-          <CustomImage imageSource={require("../images/water.jpeg")} />
+          <CustomImage
+            imageSource={require("../images/water.jpeg")}
+            header="water"
+            paragraph="lorem ipsum dolor sit emit"
+          />
         </View>
 
         <View style={styles.contentBanner}>
-          <CustomImage imageSource={require("../images/glass-house.jpeg")} />
+          <CustomImage
+            imageSource={require("../images/glass-house.jpeg")}
+            header="glass-house"
+          />
         </View>
 
         <View style={styles.colOne}>
-          <CustomImage imageSource={require("../images/bed.jpeg")} />
+          <CustomImage
+            imageSource={require("../images/bed.jpeg")}
+            header="bed"
+            paragraph="lorem ipsum dolor sit emit"
+          />
         </View>
 
         <View style={styles.colTwo}>
-          <CustomImage imageSource={require("../images/clock.jpeg")} />
+          <CustomImage
+            imageSource={require("../images/clock.jpeg")}
+          />
         </View>
       </View>
     );
