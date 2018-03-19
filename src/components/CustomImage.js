@@ -1,12 +1,19 @@
 import React, { Component } from "react";
-import { Image, Text, View, StyleSheet } from "react-native";
+import { ImageBackground, Text, View, StyleSheet } from "react-native";
 
 import ImageOverlay from "./ImageOverlay";
 
 class CustomImage extends Component {
   state = {};
   render() {
-    return <Image source={this.props.imageSource} style={styles.image} />;
+    return (
+      <ImageBackground source={this.props.imageSource} style={styles.image}>
+        <ImageOverlay
+          header={this.props.header}
+          paragraph={this.props.paragraph}
+        />
+      </ImageBackground>
+    );
   }
 }
 

@@ -8,7 +8,10 @@ class ContentContainer extends Component {
     return (
       <View style={styles.contentContainer}>
         <View style={styles.colTwo}>
-          <CustomImage imageSource={require("../images/lake.jpeg")} />
+          <CustomImage
+            imageSource={require("../images/lake.jpeg")}
+            header="video"
+          />
         </View>
 
         <View style={styles.colOne}>
