@@ -6,7 +6,7 @@ class Header extends Component {
     return (
       <View style={styles.header}>
         <Image source={require("../images/back.jpeg")} style={styles.cart} />
-        <Text style={styles.logo}>Start Page</Text>
+        <Text style={styles.logo}>My Images</Text>
       </View>
     );
   }

@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { Image, Text, View, StyleSheet } from "react-native";
 
+import ImageOverlay from "./ImageOverlay";
+
 class CustomImage extends Component {
   state = {};
   render() {
