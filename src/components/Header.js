@@ -19,14 +19,14 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
     flexDirection: "row",
     alignItems: "center",
-    justifyContent: "center",
+    justifyContent: "flex-start",
     padding: 20,
     borderBottomWidth: 4,
     borderBottomColor: "#ccc"
   },
   cart: {
-    width: 40,
-    height: 40
+    width: 50,
+    height: 50
   },
   logo: {
     fontSize: 20,
